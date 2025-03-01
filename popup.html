@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 200px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .color-option {
+      margin: 8px 0;
+      padding: 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      text-align: center;
+    }
+    #black {
+      background-color: #333;
+      color: white;
+    }
+    #gray {
+      background-color: #808080;
+      color: white;
+    }
+    #yellow {
+      background-color: #F5E6CA;
+      color: black;
+    }
+    #reset {
+      margin-top: 16px;
+      padding: 8px;
+      background-color: #ff6b6b;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+      text-align: center;
+    }
+    #reset:hover {
+      background-color: #ff5252;
+    }
+  </style>
+</head>
+<body>
+  <h3>Select Background Color</h3>
+  <div class="color-option" id="black">Dark Mode</div>
+  <div class="color-option" id="gray">Gray Mode</div>
+  <div class="color-option" id="yellow">Yellow Mode</div>
+  <div id="reset">Reset Colors</div>
+  <script src="popup.js"></script>
+</body>
+</html>
