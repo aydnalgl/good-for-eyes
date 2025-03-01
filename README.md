@@ -11,7 +11,7 @@ Good for Eyes is a simple Chrome extension designed to make web browsing easier 
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/good-for-eyes.git
+git clone https://github.com/aydnalgl/good-for-eyes.git
 
 
 2. Load the extension in Chrome: 
